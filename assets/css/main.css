@@ -4065,6 +4065,10 @@ body {
     border-bottom: 0;
 }
 
+a:hover {
+    text-decoration: none !important;
+}
+
 #header > .logo {
     position: absolute;
     left: 1rem;
@@ -4767,6 +4771,7 @@ body.is-navPanel-visible #navPanel {
 }
 .testimonials p {
     color: #292f33 !important;
+    margin-bottom: 1em;
 }
 .innerTest {
     max-width: 1200px;
@@ -4786,9 +4791,14 @@ body.is-navPanel-visible #navPanel {
     padding: 15px;
 }
 .testimonial {
+    transition: filter 0.3s;
     background: #fff;
     padding: 30px;
     border-radius: 2.5%;
+    filter: drop-shadow(0 0 0.3125rem #257cc4);
+}
+.testimonial:hover {
+    filter: drop-shadow(0 0 1.5rem #257cc4);
 }
 .name {
     font-size: 1.25em;
@@ -4813,4 +4823,16 @@ body.is-navPanel-visible #navPanel {
 }
 .lessTop {
     padding-top: 5em !important;
+}
+
+.modal-body,
+.modal-title {
+    color: #292f33 !important;
+}
+.modal {
+    top: 15%;
+}
+.modal-stars {
+    color: #257cc4;
+    margin: 0;
 }
