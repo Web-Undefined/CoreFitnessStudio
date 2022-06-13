@@ -4830,9 +4830,21 @@ body.is-navPanel-visible #navPanel {
     color: #292f33 !important;
 }
 .modal {
-    top: 15%;
+    top: 10%;
 }
 .modal-stars {
     color: #257cc4;
     margin: 0;
+}
+
+#landingLogo {
+    width: 30%;
+}
+@media screen and (max-width: 600px) {
+    #landingLogo {
+        width: 50%;
+    }
+    .modal {
+        top: 7%;
+    }
 }
