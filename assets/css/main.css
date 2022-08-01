@@ -3132,6 +3132,9 @@ ul.faces li p {
     ul.faces li:last-child {
         margin-bottom: 0;
     }
+    .display-none {
+        display: none;
+    }
 }
 
 /* Table */
